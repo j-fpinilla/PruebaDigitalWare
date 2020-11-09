@@ -1,0 +1,8 @@
+<div class="container p-3">
+  <button type="button"
+    class="btn btn-success btn-lg float-right"
+    (click)="onAgregarDesarrollador()"> +
+    Agregar</button>
+</div>
+<app-matriz
+  *ngFor="let desarrolladores of desarrollador; let i = index" [indice]="i"></app-matriz>
